@@ -41,3 +41,19 @@ struct PersistenceHelper<T: Codable> {
        return documentsDirectory().appendingPathComponent(filename)
      }
 }
+
+struct PhotoPersistance {
+    static let manager = PhotoPersistance()
+    
+    func save(newPhoto: Photo) throws {
+        try persistenceHelper.save(newElement: newPhoto)
+    }
+    
+    func getPhotos() throws -> [Photo] {
+        return try persistenceHelper.getObjects()
+    }
+    
+    private let persistenceHelper = PersistenceHelper<Photo>(fileName: "photo.plist")
+    
+    private init() {}
+}
