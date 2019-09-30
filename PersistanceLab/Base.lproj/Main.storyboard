@@ -47,6 +47,7 @@
                                         <size key="customSize" width="167" height="171"/>
                                         <connections>
                                             <outlet property="photoImageView" destination="cOd-cu-dhu" id="nUc-it-bh7"/>
+                                            <segue destination="S5Q-YM-lAq" kind="show" id="0Pp-BU-O7g"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -77,6 +78,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1952.1739130434785" y="117.85714285714285"/>
+        </scene>
+        <!--Search Detail View Controller-->
+        <scene sceneID="iJ2-tc-J3M">
+            <objects>
+                <viewController id="S5Q-YM-lAq" customClass="SearchDetailViewController" customModule="PersistanceLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JqB-cx-hTN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4yR-K1-oW7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Bw6-qV-4S2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fp3-Ic-VnQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2893" y="118"/>
         </scene>
         <!--Search-->
         <scene sceneID="XG2-fU-ID4">

@@ -54,6 +54,13 @@ class SearchPhotoViewController: UIViewController {
         super.viewDidLoad()
         setDelegates()
     }
+    //MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? SearchDetailViewController,
+            let cell = sender as? PhotoCollectionViewCell,
+            let indexPath = photoCollectionView.indexPath(for: cell) else {return}
+        destination.photo = photos[indexPath.row]
+    }
 
 }
 
