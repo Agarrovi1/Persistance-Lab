@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="1952.1739130434785" y="117.85714285714285"/>
         </scene>
-        <!--Search Detail View Controller-->
+        <!--Photo Detail View Controller-->
         <scene sceneID="iJ2-tc-J3M">
             <objects>
-                <viewController id="S5Q-YM-lAq" customClass="SearchDetailViewController" customModule="PersistanceLab" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="S5Q-YM-lAq" customClass="PhotoDetailViewController" customModule="PersistanceLab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JqB-cx-hTN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,6 +139,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Bw6-qV-4S2"/>
                     <connections>
+                        <outlet property="favButton" destination="JqU-fe-egT" id="D3r-kc-rO0"/>
                         <outlet property="favoritesLabel" destination="8d2-Ds-s9O" id="Nju-Qg-KY0"/>
                         <outlet property="likesLabel" destination="mav-mK-Xth" id="jqi-mL-Z3a"/>
                         <outlet property="photoImageView" destination="ucX-8j-u33" id="148-sT-Pum"/>
@@ -200,6 +201,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="favImageView" destination="p7O-ug-xaM" id="lCV-Nr-N0i"/>
+                                            <segue destination="S5Q-YM-lAq" kind="show" id="8ke-Fd-TJf"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -261,4 +263,7 @@
             <point key="canvasLocation" x="1040.5797101449275" y="818.97321428571422"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8ke-Fd-TJf"/>
+    </inferredMetricsTieBreakers>
 </document>

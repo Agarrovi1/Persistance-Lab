@@ -8,15 +8,17 @@
 
 import UIKit
 
-class SearchDetailViewController: UIViewController {
+class PhotoDetailViewController: UIViewController {
     //MARK: - Properties
     var photo: Photo?
+    var segueFrom = SegueToDetail.search
     
     //MARK: - Outlets
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var likesLabel: UILabel!
     @IBOutlet weak var favoritesLabel: UILabel!
     @IBOutlet weak var tagLabel: UILabel!
+    @IBOutlet weak var favButton: UIButton!
     
     //MARK: - Actions
     @IBAction func favButtonPressed(_ sender: UIButton) {
@@ -48,12 +50,21 @@ class SearchDetailViewController: UIViewController {
             }
         }
     }
+    private func hideOrShowButton() {
+        switch segueFrom {
+        case .search:
+            favButton.isHidden = false
+        case .favorite:
+            favButton.isHidden = true
+        }
+    }
     
     //MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         loadLabels()
         loadImage()
+        hideOrShowButton()
     }
 
 }
