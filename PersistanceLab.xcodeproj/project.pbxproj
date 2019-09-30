@@ -81,12 +81,12 @@
 		4D56B35B234282D200DE1CDD /* PersistanceLab */ = {
 			isa = PBXGroup;
 			children = (
-				4D56B35C234282D200DE1CDD /* AppDelegate.swift */,
-				4D56B35E234282D200DE1CDD /* SceneDelegate.swift */,
-				4D56B360234282D200DE1CDD /* ViewController.swift */,
+				4D56B3802342844500DE1CDD /* Supporting Files */,
+				4D56B3832342846E00DE1CDD /* Views */,
+				4D56B3822342846700DE1CDD /* Models */,
+				4D56B3812342845600DE1CDD /* Controllers */,
 				4D56B362234282D200DE1CDD /* Main.storyboard */,
 				4D56B365234282D700DE1CDD /* Assets.xcassets */,
-				4D56B367234282D700DE1CDD /* LaunchScreen.storyboard */,
 				4D56B36A234282D700DE1CDD /* Info.plist */,
 				4D56B37E2342831D00DE1CDD /* Secrets.swift */,
 			);
@@ -100,6 +100,38 @@
 				4D56B375234282D700DE1CDD /* Info.plist */,
 			);
 			path = PersistanceLabTests;
+			sourceTree = "<group>";
+		};
+		4D56B3802342844500DE1CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D56B35C234282D200DE1CDD /* AppDelegate.swift */,
+				4D56B35E234282D200DE1CDD /* SceneDelegate.swift */,
+				4D56B367234282D700DE1CDD /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D56B3812342845600DE1CDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D56B360234282D200DE1CDD /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D56B3822342846700DE1CDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D56B3832342846E00DE1CDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
