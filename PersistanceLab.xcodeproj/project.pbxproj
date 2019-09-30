@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D56B35D234282D200DE1CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D56B35C234282D200DE1CDD /* AppDelegate.swift */; };
 		4D56B35F234282D200DE1CDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D56B35E234282D200DE1CDD /* SceneDelegate.swift */; };
-		4D56B361234282D200DE1CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D56B360234282D200DE1CDD /* ViewController.swift */; };
+		4D56B361234282D200DE1CDD /* SearchPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D56B360234282D200DE1CDD /* SearchPhotoViewController.swift */; };
 		4D56B364234282D200DE1CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D56B362234282D200DE1CDD /* Main.storyboard */; };
 		4D56B366234282D700DE1CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D56B365234282D700DE1CDD /* Assets.xcassets */; };
 		4D56B369234282D700DE1CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D56B367234282D700DE1CDD /* LaunchScreen.storyboard */; };
@@ -34,7 +34,7 @@
 		4D56B359234282D200DE1CDD /* PersistanceLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistanceLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D56B35C234282D200DE1CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D56B35E234282D200DE1CDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D56B360234282D200DE1CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D56B360234282D200DE1CDD /* SearchPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoViewController.swift; sourceTree = "<group>"; };
 		4D56B363234282D200DE1CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D56B365234282D700DE1CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D56B368234282D700DE1CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		4D56B3812342845600DE1CDD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4D56B360234282D200DE1CDD /* ViewController.swift */,
+				4D56B360234282D200DE1CDD /* SearchPhotoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D56B361234282D200DE1CDD /* ViewController.swift in Sources */,
+				4D56B361234282D200DE1CDD /* SearchPhotoViewController.swift in Sources */,
 				4D56B37F2342831D00DE1CDD /* Secrets.swift in Sources */,
 				4D56B35D234282D200DE1CDD /* AppDelegate.swift in Sources */,
 				4D56B35F234282D200DE1CDD /* SceneDelegate.swift in Sources */,

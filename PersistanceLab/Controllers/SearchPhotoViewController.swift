@@ -8,8 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchPhotoViewController: UIViewController {
 
+    @IBOutlet weak var photoCollectionView: UICollectionView!
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
