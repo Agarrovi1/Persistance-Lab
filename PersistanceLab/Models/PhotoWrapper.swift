@@ -12,8 +12,8 @@ struct PhotoWrapper: Codable {
 }
 
 struct Photo: Codable {
-    let likes: Int
-    let favorites: Int
+    let likes: Int?
+    let favorites: Int?
     let tags: String
     let previewURL: String
     let webformatURL: String
